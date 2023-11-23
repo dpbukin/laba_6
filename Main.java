@@ -11,7 +11,13 @@ public class Main {
 
             boolean soutBool = a < b ? true : false;
 
-            System.out.println(soutBool);
+//            System.out.println(soutBool);
+
+            if(soutBool){
+                System.out.println("true");
+            }else {
+                System.out.println("false");
+            }
 
         }
     }
