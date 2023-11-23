@@ -8,6 +8,7 @@ public class Main {
 
             int a = sc.nextInt();
             int b = sc.nextInt();
+            String word = sc.next();
 
             boolean soutBool = a < b ? true : false;
 
@@ -18,6 +19,7 @@ public class Main {
             }else {
                 System.out.println("false");
             }
+            System.out.println(word + " laba_6");
 
         }
     }
